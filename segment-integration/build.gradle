@@ -34,7 +34,7 @@ android {
 
 dependencies {
     compileOnly 'com.segment.analytics.android:analytics:4.3.1'
-    implementation 'com.urbanairship.android:urbanairship-core:9.7.1'
+    implementation 'com.urbanairship.android:urbanairship-core:10.0.1'
 
     testImplementation 'junit:junit:4.12'
     testImplementation 'com.segment.analytics.android:analytics-tests:4.2.0'
