@@ -97,7 +97,7 @@ public class UrbanAirshipIntegration extends Integration<UAirship> {
             }
         }
 
-        airship.getAnalytics().addEvent(eventBuilder.create());
+        airship.getAnalytics().addEvent(eventBuilder.build());
     }
 
     @Override
