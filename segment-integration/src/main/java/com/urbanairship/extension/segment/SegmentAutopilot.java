@@ -52,7 +52,7 @@ public class SegmentAutopilot extends Autopilot {
 
         // Apply GCM Sender from Segment
         if (preferences.contains(GCM_SENDER)) {
-            builder.setGcmSender(preferences.getString(GCM_SENDER, null));
+            builder.setFcmSenderId(preferences.getString(GCM_SENDER, null));
         }
 
         if (preferences.contains(NOTIFICATION_ACCENT_COLOR)) {
